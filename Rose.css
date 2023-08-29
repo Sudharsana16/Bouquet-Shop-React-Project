@@ -1,0 +1,29 @@
+.flowertypes
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.flower_item
+{
+    width:300px;
+    height: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    padding-bottom:20px;
+    background-color:blanchedalmond;
+    box-shadow: rgba(0,0,0,0.35)0px 5px 15px;
+}
+button
+{
+    width: 40%;
+    background-color: rgba(189, 102, 4, 0.632);
+    height: 40px;
+    color:black;
+    border:none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin-left: 50px;
+}

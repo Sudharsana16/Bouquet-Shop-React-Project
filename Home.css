@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Ysabeau+Office&display=swap');
+*
+{
+    margin:0px;
+    overflow-x: hidden;
+}
+
+.nav{
+    text-decoration: none;
+    display: flex;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background-color: palevioletred;
+}
+.navbar>ul{
+    display:flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.navbar>ul>li
+{
+display: block;
+padding:20px;
+}
+
+.navbar>ul>li>img
+{
+    width: 120px;
+    height: 90px;
+    mix-blend-mode: color-burn;
+}
+
+.backgrd
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.backgrd>img
+{
+    width:1210px;
+    height:400px;
+}
+.backgrd2
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.backgrd2>img{
+    width: 1050px;
+    height: 200px;
+    margin-left: 90px;
+}
+
+h2{
+    font-size: 1.5rem;
+    padding: 20px;
+    font-family: 'Ysabeau oggice',sans-serif;
+}
+.occgroup
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.occ{
+    width:200px;
+}
+.occ>img{
+    width:100%;
+}
+.occ>img:hover{
+    cursor:pointer;
+}
+
+.flowergroup
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.flower{
+    width:200px;
+}
+.flower>img{
+    width:100%;
+}
+.flower>img:hover{
+    cursor:pointer;
+}
+
+.collectgroup
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.collect{
+    width:200px;
+}
+.collect>img{
+    width:100%;
+}
+.collect>img:hover{
+    cursor:pointer;
+}
+
+.plantsgrp
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.plant{
+    width:200px;
+}
+.plant>img{
+    width:100%;
+}
+.plant>img:hover{
+    cursor:pointer;
+}
+

@@ -1,0 +1,23 @@
+h2{
+    font-size: 1.5rem;
+    padding: 20px;
+    font-family: 'Ysabeau oggice',sans-serif;
+}
+.collectgroup
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.collect{
+    width:200px;
+}
+.collect>img{
+    width:100%;
+    transition:1s;
+    transform: scale(0.9);
+}
+.collect>img:hover{
+    cursor:pointer;
+    transform: scale(1);
+}

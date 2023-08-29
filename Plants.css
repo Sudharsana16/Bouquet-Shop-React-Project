@@ -1,0 +1,24 @@
+h2{
+    font-size: 1.5rem;
+    padding: 20px;
+    font-family: 'Ysabeau oggice',sans-serif;
+    color:brown;
+}
+.plantsgrp
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.plant{
+    width:200px;
+}
+.plant>img{
+    width:100%;
+    transition:1s;
+    transform: scale(0.9);
+}
+.plant>img:hover{
+    cursor:pointer;
+    transform: scale(1);
+}

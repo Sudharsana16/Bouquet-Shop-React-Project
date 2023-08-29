@@ -1,0 +1,23 @@
+h2{
+    font-size: 1.5rem;
+    padding: 20px;
+    font-family: 'Ysabeau oggice',sans-serif;
+}
+.flowergroup
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.flower{
+    width:200px;
+}
+.flower>img{
+    width:100%;
+    transition:1s;
+    transform: scale(0.9);
+}
+.flower>img:hover{
+    cursor:pointer;
+    transform: scale(1);
+}

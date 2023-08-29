@@ -1,0 +1,33 @@
+.head
+{
+    display:flex;
+    justify-content:center;
+}
+.container
+{
+    display:flex;
+    justify-content:space-around;
+    box-shadow: rgba(0,0,35) 0px 5px 15px;
+    width:700px;
+    height: 420;
+    margin-top:50px;
+    margin-left: 200px;
+}
+.form
+{
+    display:flex;
+    justify-content:space-around;
+    flex-direction:column;
+    width:60%;
+    margin:20px 0px;
+}
+input[type="text"]
+{
+    width:60%;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-width: 0px 0px 2px 0px;
+    margin-bottom: 10px;
+    font-family: 'Ysabeau Office',sans-serif;
+    font-size: 1.2rem;
+}

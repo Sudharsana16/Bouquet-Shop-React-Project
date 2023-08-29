@@ -1,0 +1,23 @@
+h2{
+    font-size: 1.5rem;
+    padding: 20px;
+    font-family: 'Ysabeau oggice',sans-serif;
+}
+.occgroup
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.occ{
+    width:200px;
+}
+.occ>img{
+    width:100%;
+    transition:1s;
+    transform: scale(0.9);
+}
+.occ>img:hover{
+    cursor:pointer;
+    transform: scale(1);
+}
